@@ -3,24 +3,37 @@
     <head>
         <meta charset="utf-8" />
         <title>Simpliathlon</title>
+        <link rel="stylesheet" type="text/css" href="style_projets.css">
     </head>
  
     <body>
+    	<!-- barre de menu-->
+    	<div class="barre_menu">
+    		<link rel="stylesheet" type="text/css" href="style_menu.css">
+      		<ul class = menu>
+        		<li><a href="accueil.html" class="bouton_m">Accueil</a></li>
+       			<li><a href="projets.html" class="bouton_m">Projets</a></li>
+        		<li><a href="contacts.html" class="bouton_m">Contacts</a></li>
+        		<li><a href="credits.html" class="bouton_m">Crédits</a></li>
+        		<li><a href="deconnexion.html" class="bouton_m">Déconnexion</a></li>
+      		</ul>
+    	</div>
+ <!-- fin barre de menu>
  
-    <?php include("_entete.php"); ?>
+  <!ici, j'ai supprimé include entete php -->
     
     <!-- Corps de la page -->
     <div id="corps">
-        <h1>Accueil</h1>
+        <h1>Projets en cours</h1>
         
-        <h2>Simpliathlon, un triathlon organisé top chrono !</h2>
+        <!--<h2>Simpliathlon, un triathlon organisé top chrono !</h2>-->
 
 		
 		<form method="post" action="traitement.php">
  
 			<fieldset id="projets">
 				<legend>Vos projets en cours</legend>
-					<table>
+					<table id = "projets">
 						<thead>
 							<tr>
 								<td>N°</td>

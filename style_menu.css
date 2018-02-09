@@ -1,0 +1,51 @@
+
+ body {
+      margin: 0;
+      padding: 0;
+      background: #D7DBDD;
+}
+.barre_menu ul{
+      list-style: none; /*pour supprimer la liste à puces*/
+      background-color: #2C3E50;
+      text-align: center;
+      padding: 0;
+      overflow: auto;
+}
+
+.barre_menu li {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.2em;
+      line-height: 40px;
+      height: 40px;
+      border-bottom: 1px solid #888;
+     /* float: right;*/
+}
+
+.barre_menu a {
+      text-decoration: none;
+      color: #fff; /*couleur de la police du menu*/
+      display: block;
+      transition: .3s background-color;
+}
+
+.barre_menu a:hover {
+      background-color: #99A3A4;
+}
+
+.barre_menu a.active {
+      background-color: #fff;
+      color: #444;
+      cursor: default;
+}
+
+@media screen and (min-width: 600px) {/*c'est le menu vertical qui devient horizontal quand l'ecran fait plus que 600px de largeur*/
+	.barre_menu li {
+     	display: inline-block;
+      	width: 130px;
+      	border-bottom: none;
+      	height: 50px;
+      	line-height: 50px;
+      	font-size: 1.4em;
+      	margin-right: -4px;
+    }
+ }

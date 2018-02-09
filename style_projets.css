@@ -1,0 +1,33 @@
+h1{
+
+text-align: center;
+font-family: Palatino;
+color: #2C3E50;
+}
+
+#projets {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#projets td, #projets thead {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*#projets tr:nth-child(even){
+    background-color: #f2f2f2;
+}*/
+
+/*#projets tr:hover {
+    background-color: #ddd;
+}*/
+
+#projets thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #34495E;
+    color: white;
+}
