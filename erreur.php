@@ -11,11 +11,9 @@
     
     <!-- Corps de la page -->
     <div id="corps">
-        <h1>Connexion</h1>
-        
-        <h2>Sous-titre</h2>
+        <h1>Erreur de connexion</h1>
 		
-		<p>Texte</p>
+		<p>Veuillez vérifier votre email et/ou mot de passe.</p>
     </div>
     
     <!-- Pied de page -->

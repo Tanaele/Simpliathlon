@@ -3,34 +3,30 @@
     <head>
         <meta charset="utf-8" />
         <title>Simpliathlon</title>
+        <link rel="stylesheet" type="text/css" href="style_projets.css">
     </head>
  
     <body>
- 
-    <?php include("_entete.php"); ?>
-    
+
+    <?php include("entete.php"); ?>
+	
     <!-- Corps de la page -->
     <div id="corps">
-        <h1>Accueil</h1>
-        
-        <h2>Simpliathlon, un triathlon organisé top chrono !</h2>
-
-		
+        <h1>Projets en cours</h1>
+        <!--<h2>Simpliathlon, un triathlon organisé top chrono !</h2>-->
 		<form method="post" action="traitement.php">
- 
 			<fieldset id="projets">
-				<legend>Vos projets en cours</legend>
-					<table>
+					<table id = "table_projets">
 						<thead>
 							<tr>
-								<td>N°</td>
-								<td>Nom</td>
-								<td>Type</td>
-								<td>Lieu</td>
-								<td>Date</td>
-								<td>Calendrier</td>
-								<td>Agenda</td>
-								<td>Supprimer</td>
+								<th>N°</th>
+								<th>Nom</th>
+								<th>Type</th>
+								<th>Lieu</th>
+								<th>Date</th>
+								<th>Liste</th>
+								<th>Agenda</th>
+								<th>Supprimer</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -58,11 +54,10 @@
 					</table>
 			</fieldset>
 		</form>
-		
     </div>
     
     <!-- Pied de page -->
-    <?php include("_pied_de_page.php"); ?>
+    <?php include("pied_de_page.php"); ?>
     
     </body>
 </html>

@@ -1,0 +1,86 @@
+body
+{
+
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+
+
+}
+h1
+{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+h2
+{
+	font-family: "Open Sans", cursive, sans-serif;
+	text-align: center;
+}
+
+#fenetre_connexion
+{
+padding-top: 8em;
+padding-bottom: 8em;
+background-color: silver;
+
+}
+#connexion
+{
+ 	background-color:#CCC;
+ 	max-width:500px;
+ 	padding:16px;	
+ 	margin: auto;
+
+}
+
+label {
+display: block;
+width: 10em;
+float: left;
+
+}
+fieldset {
+width: 25em;
+border-radius:5px;
+
+}
+input{
+	width: 10em;
+	border-radius:5px;
+}
+
+
+#connexion_button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#connexion_button: hover {
+    opacity: 1;
+}
+
+
+#message_mdp_oublie
+{	font-family: "Open Sans", "Lucida Grande", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Open Sans";
+	
+}
+
+a:link 
+{ 
+text-decoration: none;
+
+} 
+
